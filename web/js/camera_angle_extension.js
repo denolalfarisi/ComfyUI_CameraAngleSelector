@@ -688,7 +688,7 @@ class CameraAngle3DWidget {
         
         // Rotate the subject so its front faces +X (where "front view" cameras are)
         // The nose/face points +Z by default, cameras at dirIdx=0 are at +X
-        group.rotation.y = -Math.PI / 2;
+        group.rotation.y = Math.PI / 2;
         
         // Orbit sphere wireframes for each shot size layer
         const sizeRadii = [2.0, 2.5, 3.0]; // close-up, medium, wide
