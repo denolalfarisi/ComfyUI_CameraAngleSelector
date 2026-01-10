@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
 build/
 develop-eggs/
 dist/
@@ -43,6 +44,8 @@ env/
 .cursor/
 .windsurf/
 .kilocodemodes
+.github/
+.github/agents/*
 
 # OS files
 .DS_Store
