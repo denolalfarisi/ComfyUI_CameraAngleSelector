@@ -686,6 +686,10 @@ class CameraAngle3DWidget {
         this.createTextLabel(group, 'F', 0, -0.19, 0.4, 0x4CAF50);
         this.createTextLabel(group, 'B', 0, -0.19, -0.4, 0xF44336);
         
+        // Rotate the subject so its front faces +X (where "front view" cameras are)
+        // The nose/face points +Z by default, cameras at dirIdx=0 are at +X
+        group.rotation.y = -Math.PI / 2;
+        
         // Orbit sphere wireframes for each shot size layer
         const sizeRadii = [2.0, 2.5, 3.0]; // close-up, medium, wide
         const sizeColors = [0x4a90d9, 0x50c878, 0xf39c12]; // blue, green, orange
