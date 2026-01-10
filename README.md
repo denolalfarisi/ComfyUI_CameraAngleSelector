@@ -1,8 +1,9 @@
 # ComfyUI Camera Angle Selector
 
-A ComfyUI custom node that provides an interactive 3D interface for selecting camera angles. Select from 96 different camera angle combinations (8 view directions × 4 height angles × 3 shot sizes) with visual feedback and multi-selection support.
+A ComfyUI custom node that provides an interactive 3D interface for selecting camera angles for the FAL multi angle lora [https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA] for **Qwen-Image-Edit-2511**. Select from 96 different camera angle combinations (8 view directions × 4 height angles × 3 shot sizes) with visual feedback and multi-selection support.
 
-![Camera Angle Selector Screenshot](screenshot.png)
+![Camera Angle Selector Screenshot]
+<img width="1849" height="1275" alt="Screenshot 2026-01-10 112331" src="https://github.com/user-attachments/assets/451e4a70-9275-4263-8cd9-d6fc0940a7f9" />
 
 ## Features
 
@@ -200,3 +201,4 @@ This project is provided as-is for use with ComfyUI.
 ## Credits
 
 Built for ComfyUI to provide an intuitive 3D interface for camera angle selection in AI image generation workflows.
+Thank for the amazing lora [[Qwen-Image-Edit-2511](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA)] to the FAL.AI team
